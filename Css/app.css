@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Chanda';
+    src: url('../fonts/Chanda\ Feliz.ttf');
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+html {
+    height: 100vh;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    height: 100%;
+    background-image: url('../img/sorteio.jpg');
+    background-position: center;
+    background-repeat: repeat;
+    background-size: 100%; 
+}
+
+.sorteador-container {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.btn-sort {
+    padding: 5vh 10vw;
+    border: solid 2px #fff;
+    border-radius: 35px;
+    background-color: #00E3CC;
+    color: black;
+    font-size: 1.7rem;
+    font-weight: 900;
+    transition: 320ms;
+    
+    cursor: pointer;
+}
+
+.btn-sort:hover {
+    background: none;
+    color: #fff;
+    transition: 320ms;
+}
+
+
+.esconde {
+    display: none;
+}
+
+.aparece {
+    display: block;
+}
+
+.contador-regressivo {
+    font-size: 6.0rem;
+    font-weight: 300;
+}
+
+.resultado {
+    font-size: 2.7rem;
+    font-weight: 600;
+    font-family: 'Chanda';
+    text-align: center;
+}
+
+.btn-lista {
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 2vh 4vw;
+    border: solid 2px #fff;
+    border-radius: 35px;
+    background-color: #00E3CC;
+    color: black;
+    font-size: 1.7rem;
+    font-weight: 900;
+    transition: 320ms;
+    cursor: pointer;
+    
+}
+
+.btn-lista:hover {
+    background: none;
+    color: #fff;
+    transition: 320ms;
+}
