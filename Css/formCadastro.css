@@ -1,0 +1,21 @@
+body {
+    color: #000;
+    display: grid;
+    place-items: center;
+    background-image: url('../img/pexels-stein-egil-liland-3374210.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+form {
+    max-width: 600px;
+    min-width: 200px;
+    max-height: 660px;
+    min-width: 200px;
+    padding: 30px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 23px;
+    border-radius: 23px;
+}

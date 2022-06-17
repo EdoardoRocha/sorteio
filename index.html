@@ -5,14 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Css/app.css">
+    <link rel="stylesheet" href="./Css/header.css">
+    <link rel="stylesheet" href="./Css/indexControl.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <title>Sorteio App</title>
 </head>
 <body>
-    
-    <div class="sorteador-container">
+    <header>
+        <h1>SORTEIO_ON</h1>
+        <nav>
+            <a href="./cadastro.html" id="mainLink">Cadastrar</a>
+            <a href="#">Feedback</a>
+            <a href="#">Conta</a>
+        </nav>
+    </header>
+
+
+    <div class="sorteioNaoIniciado">
+        <h1 id="title" content="App para sorteio" >App para sorteios</h1>
+        <p 
+            id="desc" 
+            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint temporibus animi aliquam, quidem illum nobis sed eum ipsam? Dolorem sed quos repellendus quod porro assumenda impedit, modi iure obcaecati sunt!"
+        >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint temporibus animi aliquam, quidem illum nobis sed eum ipsam? Dolorem sed quos repellendus quod porro assumenda impedit, modi iure obcaecati sunt!</p>
+        <button class="btnInit">Iniciar</button>
+        <button class="btnVoltar esconde">Voltar</button>
+    </div>
+
+    <div class="sorteador-container esconde">
         <div class="sorteador">
             <button class="btn-lista aparece"><a href="./lista.html">Listar Nomes</a></button>
             <input type="button" value="SORTEAR" class="btn-sort aparece">
@@ -25,5 +47,6 @@
     </div>
  
     <script src="./Js/app.js"></script>
+    <script src="./Js/indexPageControl.js"></script>
 </body>
 </html>
